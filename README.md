@@ -1,0 +1,1 @@
+Moje laboratorium Git
