@@ -1,0 +1,11 @@
+def pytanie():
+	check=input("Czy jesteś gejem? Odpowiedz 'Tak' lub 'Nie': ")
+	if  check=="Tak":
+		odp=print("ALE Z CIEBIE PEDAŁ XDDDD!!!")
+	elif check=="Nie":
+		odp=print("Jesteś spoko ziomek <3")
+	else:
+		print("Zastosuj się do kryterii.")
+		pytanie()
+	return odp
+pytanie()
